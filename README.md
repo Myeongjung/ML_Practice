@@ -2,4 +2,4 @@
 
 Practice for basic tensorflow
 
-Data source from https://github.com/blackdew/tensorflow1
+Source: https://github.com/blackdew/tensorflow1
