@@ -1,4 +1,4 @@
-# tensorflow1
+# tensorflow
 
 Practice for basic tensorflow
 
