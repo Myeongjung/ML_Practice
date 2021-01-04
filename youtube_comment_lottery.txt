@@ -1,0 +1,25 @@
+//scroll all comments
+var id = setInterval(function(){scrollTo(0, 100000000000000);}, 1)
+
+//shuffle them all and select comments
+// var selectedComment = '#sections #contents ytd-comment-thread-renderer #header-author'; // community
+var selectedComment = '#comments #contents #header-author'; // video
+function shuffle(a) {
+    for (let i = a.length; i; i--) {
+        let j = Math.floor(Math.random() * i);
+        [a[i - 1], a[j]] = [a[j], a[i - 1]];
+    }
+}
+var list = [];
+document.querySelectorAll(selectedComment).forEach(function(e){
+    var author = e.querySelector('#author-text');
+    var permalink = e.querySelector('.published-time-text>.yt-simple-endpoint');
+    list.push({name:author.innerText.trim(), url:author.href, permalink:permalink.href, tag:e});
+});
+list = list.filter((v,i,a) => a.indexOf(v)===i);
+shuffle(list);
+var str = '';
+for(var i=0; i<list.length; i++){
+    str += (i+1+', '+list[i].name.trim()+', '+list[i].url+', '+list[i].permalink + "\n")
+}
+str;
