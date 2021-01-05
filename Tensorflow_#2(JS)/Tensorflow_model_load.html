@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TensorFlow.js Tutorial - lemon</title>
+
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    
+</head>
+
+<body>
+    <script>
+        
+        // Load Model from the Local Storage
+        // 1. async, await method
+        async function LoadModel() {
+            const model = await tf.loadLayersModel('localstorage://lemon');
+            model.predict(tf.tensor([10])).print();
+        }
+        LoadModel();
+
+        // 2. function call
+        tf.loadLayersModel('localstorage://lemon').then(function(model){
+            model.predict(tf.tensor([20])).print();
+        });
+
+        // 4.4 test with the new data
+        // var nextweekTemp = [15,16,17, 18, 19]
+        // var x_test = tf.tensor(nextweekTemp);
+        // var y_test = model.predict(x_test);
+        // y_test.print();
+    </script>
+</body>
+
+</html>
