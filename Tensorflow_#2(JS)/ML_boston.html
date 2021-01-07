@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TensorFlow.js Tutorial - lemon</title>
+
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.0/dist/tf.min.js"></script>
+    <!-- Import Tensorflow-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+    <!-- 1. Prepare the data.  -->
+    <script src="boston_data.js"></script>
+    <!-- Multiple dependent variable -->
+    <!-- <script src="boston_data_2.js"></script> -->
+</head>
+
+<body>
+    <script>
+        var indepVar = tf.tensor(Boston_indepVar);
+        var depVar = tf.tensor(Boston_depVar);
+
+        // 2. Structure a model. 
+        
+        // 2.1 model for boston_data.js
+        var X = tf.input({ shape: [13] });
+        var Y = tf.layers.dense({ units: 1 }).apply(X);
+
+        // 2.2 model for boston_data_2.js
+        // var X = tf.input({ shape: [12] });
+        // var Y = tf.layers.dense({ units: 2 }).apply(X)
+        var model = tf.model({ inputs: X, outputs: Y });
+        var compileParam = { optimizer: tf.train.adam(), loss: tf.losses.meanSquaredError, metrics: ['accuracy']}
+        model.compile(compileParam);
+        tfvis.show.modelSummary({name:'Model Sumamry', tab:'Model Inspection'},model);
+
+        // 3. Train the model with the data 
+        // var fitParam = { epochs: 2000} 
+        // 3.1 See the logs with the loss
+        var _history = [];
+        var fitParam = { 
+            epochs: 100, 
+            callbacks:{
+                onEpochEnd:function(epoch, logs){
+                    console.log('epoch:', epoch, 'RMSE:', Math.sqrt(logs.loss), 'MSE:', logs.loss, 'accuracy:', logs.acc);
+                    // Visualized the history
+                    _history.push(logs);
+                    tfvis.show.history({name:'Loss', tab:'History'}, _history, ['loss', 'acc']);
+                }
+            }
+        }
+
+        model.fit(indepVar, depVar, fitParam).then(function (result) {
+            
+            // 4. Use the model. 
+            // 4.1 with the same data as we trained
+            var prediction = model.predict(indepVar);
+            // prediction.print();
+            // Get data and possible to use
+            const value = prediction.dataSync();
+            console.log(value);
+        });  
+
+        
+
+    </script>
+</body>
+
+</html>
