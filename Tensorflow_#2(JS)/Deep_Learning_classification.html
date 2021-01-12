@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TensorFlow.js Tutorial - Iris</title>
+
+    <!-- Import TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.4.0/dist/tf.min.js"></script>
+    <!-- Import Tensorflow-vis -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis"></script>
+    <!-- Import danfojs -->
+    <script src="https://cdn.jsdelivr.net/npm/danfojs@0.1.2/dist/index.min.js"></script>
+
+ 
+</head>
+
+<body>
+    <script>
+        //1. Prepare the data.
+        dfd.read_csv('https://raw.githubusercontent.com/Myeongjung/ML_Practice/master/Tensorflow_%231/csv/iris.csv').then(function(data){
+            console.log(data);
+            data.print();
+        
+            var indepVar = data.loc({columns:['Petal length', 'Petal width', 'Calyx length', 'Calyx width']});
+            indepVar.print();
+
+            var encoder = new dfd.OneHotEncoder();
+            var depVar = encoder.fit(data['Species']);
+            data['Species'].print();
+            depVar.print();
+
+            // // 2. Structure a model. 
+            var X = tf.input({ shape: [4] });
+            // Added Hidden Layers
+            var H1 = tf.layers.dense({ units: 4, activation:'relu' }).apply(X);
+            var H2 = tf.layers.dense({ units: 4, activation:'relu' }).apply(H1);
+            var Y = tf.layers.dense({ units: 3, activation:'softmax' }).apply(H2);
+
+            var model = tf.model({ inputs: X, outputs: Y });
+            var compileParam = { optimizer: tf.train.adam(), loss: 'categoricalCrossentropy', metrics:['accuracy']}
+            model.compile(compileParam);
+            tfvis.show.modelSummary({name:'Model Sumamry', tab:'Model Inspection'},model);
+            
+            // 3. Train the model with the data 
+            // var fitParam = { epochs: 2000} 
+            // 3.1 See the logs with the loss
+            var _history = [];
+            var fitParam = { 
+                epochs: 100, 
+                callbacks:{
+                    onEpochEnd:function(epoch, logs){
+                        console.log('epoch:', epoch, 'RMSE:', Math.sqrt(logs.loss), 'accuracy:', logs.acc);
+                        // Visualized the history
+                        _history.push(logs);
+                        tfvis.show.history({name:'Loss', tab:'History'}, _history, ['loss', 'acc']);
+                    }
+                }
+            }
+
+            model.fit(indepVar.tensor, depVar.tensor, fitParam).then(function (result) {
+                
+                // 4. Use the model. 
+                // 4.1 with the same data as we trained
+                var prediction = new dfd.DataFrame(model.predict(indepVar.tensor));
+                prediction.print();
+                depVar.print();
+            });  
+
+        
+        })
+    </script>
+</body>
+
+</html>
