@@ -1,0 +1,46 @@
+<Practice quiz on Simplification Rules and Sigma Notation> 
+
+1. Which of the numbers below is equal to the following summation:  Σi^2 (3,i=1)?
+
+() 30
+(X) 14
+() 1
+() 9
+
+2. Suppose that A=Σk^4 (100, k=1) and B=Σj^4(100, j=1)
+Which of the following statements is true?
+
+() There is not enough information to do the problem
+() A>B
+(X) A=B
+() B>A
+
+3. Which of the numbers below is equal to the summation Σ7 (10, i=1) ?
+
+(X) 70
+() 7
+() 55
+() 0
+
+4. Suppose that X=Σi^3 (5, i=1) and Y=Σi^4 (5, i=1)
+Which of the following expressions is equal to the summation Σ(2i^3 + 5i^4) (5,i=1)?
+
+() X+Y
+() 7
+() 3375
+(X) 2X+5Y
+
+5. Which of the following numbers is the mean μz of the set Z={−2,4,7}?
+
+(X) 3
+() 4
+() 13/3
+() 9
+
+6. Suppose the set X has five numbers in it: X ={x_1, x_2, x_3, x_4, x_5\}. 
+Which of the following expression represents the mean of the set X?
+
+(X) 1/5[∑x_i (5, i=1)]
+() ∑x_i (5, i=1)
+() 1/5[∑(x_i−μx)^2 (5, i=1)]
+() 1/N[∑x_i(N, i=1)]

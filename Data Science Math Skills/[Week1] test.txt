@@ -1,0 +1,98 @@
+<Graded quiz on Sets, Number Line, Inequalities, Simplification, and Sigma Notation> 
+
+1. B={3,5,10,11,14}. Is the following statement true or false: 3 ∈/ B
+
+(X) False
+() True 
+
+2. Let A = {1,3,5} and B={3,5,10,11,14}. Which of the following sets is equal
+to the union A∪B?
+
+() {1,10,18}
+() {3,5,10,11,14}
+(X) {1,3,5,10,11,14}
+() {1,3,5,3,5,10,11,14}
+
+3. How many real numbers are there between the integers 1 and 4 ?
+
+() 4
+(X) Infinitely many
+() None
+() 2
+
+4. Suppose I tell you that x and y are two real numbers which make the statement x ≥ y true. Which pair of numbers cannot be values for x and y?
+
+() x=2 and y=1
+() x=10 and y=10
+(X) x=−1 and y=0
+() x=5 and y=3.3
+
+5. Suppose that zz and ww are two positive numbers with z < w. Which of the
+following inequalities is false?
+
+() z+3<w+3
+() −z>−w
+(X) −5z<−5w
+() w−7>z−7
+
+6. Find the set of all xx which solve the inequality −2x+5≤7
+
+() x=−1
+() x≥−6
+() x≤−1
+(X) x≥−1
+
+7. Which of the following real numbers is not in the closed interval [2,3]
+
+(X) 1
+() 2.1
+() 2
+() 3
+
+=> 2≤x≤3
+​	
+8. Which of the following intervals represents the set of all solutions to:
+−5≤x+2<10?
+
+() [−7,8]
+(X) [−7,8)
+() [−5,10)
+() (7,8)
+
+=> −7≤x<8
+
+9. Which of the numbers below is equal to the following summation: Σ2k(5, k=2)?
+
+(X) 28
+() 4
+() 10
+() 14
+
+10. Suppose we already know that Σk(20, k=1)=210. 
+Which of the numbers below is equal to Σ2k (20, k=1)?
+
+() 40
+(X) 420
+() 2
+() 210
+
+11. Which of the numbers below is equal to the summation Σ7 (10, i=2)?
+
+() 70
+() 48
+() 7
+(X) 63
+
+12. Which of the following numbers is the variance of the set Z={−2,4,7}?
+
+(X) 14
+() \sqrt{14} 
+() 42
+() 69
+
+13. Which of the following sets does not have zero variance? (hint: don't do any calculation here, just think!)
+
+(){0,0,0,0,0,0,0}
+(X){2,5,9,13}
+(){5,5,5,5,5,5,5,5,5,5,5,5,5,5}
+(){1,1,1,1}

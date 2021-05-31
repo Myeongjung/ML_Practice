@@ -1,0 +1,63 @@
+<Practice quiz on the Number Line, including Inequalities>
+
+1. Which of the following real numbers is not an integer?
+
+(X) 4.3
+() −3
+() 7
+() 0
+
+=> 4.3 is a decimal
+
+2. Which of the following is the absolute value |-7| of the number -7?
+
+(X) 7
+() 0
+() 1
+() -7
+
+3. Suppose I tell you that x and y are two real numbers which make the statement x<y true. Which pair of numbers cannot be values for x and y?
+
+() x = -1 and y = 0
+(X) x = 5 and y = 3.3
+() x = −17.3 and y = −17.1
+() x = 11 and y = 7.3
+
+4. Suppose I tell you that ww is a real number which makes both of the following
+statements true: w > 1 and w < 1.2. Which of the following numbers could be w?
+
+() w = 11
+() w = 0
+() w = 1.2
+(X) w = 1.05
+
+5. Suppose that x and y are two real numbers which satisfy x + 3 = 4y + 1. Which
+of the following statements are false?
+
+() x = 4y -2
+(X) x = 4y
+() 2x + 6 = 8y + 2
+() x + 2 = 4y
+
+6. Which of the following real numbers is in the open interval (2, 3)?
+
+() 1
+() 3
+(X) 2.1
+() 2
+
+7. Which of the following real numbers are in the open ray (3.1,∞)?
+
+() 0
+() 3.1
+(X) 4.75
+() −5
+
+=> (3.1,∞)={x∈R|x>3.1}
+
+8. Which of the following values for xx solves the equation −3x+2=−4
+
+() All values of x such that 2x≤2
+() x=−2
+(X) x=2
+() x=2/3

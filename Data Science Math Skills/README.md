@@ -4,4 +4,7 @@ Lectures are provided by Duke University in [Coursera](https://www.coursera.org/
 ## Table of contents
 | Week | File Name | 
 |:---:|:---:|
-|1|[Practice quiz on Sets](https://github.com/Myeongjung/DS-ML-Self-Study/tree/master/Data%20Science%20Math%20Skills/Practice%20quiz%20on%20Sets.txt)|
+|1|[Quiz 1]()|
+|1|[Quiz 2]()|
+|1|[Quiz 3]()|
+|1|[Test]()|
