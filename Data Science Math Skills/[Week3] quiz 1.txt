@@ -1,0 +1,21 @@
+<Practice quiz onTangent Lines to Functions>
+
+1. Suppose that f:R→R is a function. Which of the following expressions corresponds to f'(2), the slope of the tangent line to the graph of (x) at x=2?
+
+() f'(2)=lim f(a+h)−f(a) / h
+			h→0
+() f′(2)=mx+b
+() f′(2)=2
+(X) f′(2)=lim f(2+h)−f(2) / h
+			 h→0
+
+2. Suppose that h:R→R is a function whose graph is shown as the blue curve in the figure. For how many values of aa is h'(a) = 0?
+
+() 3
+() Never
+() Always
+(X) 2
+
+=> h'(a) gives the slope of the tangent line to the graph of h at the point x=a. 
+When h'(a) = 0, this means that the tangent line is horizontal. 
+There are two places (one on each side of the y-axis) where this tangent line is horizontal, so 2 is correct.

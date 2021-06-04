@@ -1,0 +1,40 @@
+<Practice quiz on the Cartesian Plane>
+
+1. Which of the following points in the Cartesian Plane is on the y-axis?
+() (−5,0)
+() (1,1)
+(X) (0,−5)
+() (5,0)
+
+=> The y-axis is defined to be all points in the Cartesian plane with zero as x-coordinate.
+
+2. Find the distance between the points A=(2,2) and C=(3,3):
+() 0
+(X) \sqrt{2} 
+​() 1
+() 2
+	
+=> The distance between points (a,b)(a,b) and (c,d)(c,d) is \sqrt{(c-a)^2 + (d-b)^2}}
+
+3. Find the point-slope form of the equation of the line that goes between A=(1,1) and B=(5,3):
+
+(X) y−1=1/2(x−1)
+() y−1=1/2(x−5)
+() y=1/2x
+() y−3=1/2(x−1)
+
+The point-slope form for the equation of a line with slope m that goes through the point (x_0, y_0) is y - y_0 = m(x - x_0).
+
+4. Which of the following points is on the line with equation:
+y−1=2(x−2)?
+
+() (0,0)
+(X) (2,1)
+() (2,3)
+() (3,2)
+
+5. Suppose that a line ℓ has slope 2 and goes through the point (−1,0). What is the y-intercept of ℓ?
+() −1
+() 1
+(X) 2
+() 0

@@ -1,0 +1,98 @@
+<Practice quiz on Exponents and Logarithms>
+
+1. Re write the number 784=2×2×2×2×7×7 using exponents.
+
+() (2×7)^6
+() (2^6)(7^6)
+() (16^4)(49^2)
+(X) (2^4)(7^2)
+
+2. What is (x^2 -5)^0?
+
+() (x^2)-5
+() (x^2)
+() −4
+(X) 1
+
+3. Simplify ((x-5)^2)^-3
+
+() (x-5)^{-5}
+() (x−5)
+() (x-5)^{-1}
+(X) (x-5)^{-6}
+
+4. Simplify (8^2/8^7)^2
+
+() 8^−1
+(X) 8^−10
+() 8^−4
+() 8^−5
+ 
+5. log35 = log7+logx
+Solve for x
+
+() 7
+() 4
+(X) 5
+() 28
+
+6. log_2 (x^2 + 5x + 7)=0
+Solve for x
+
+(X) x=−2 or x=−3 
+() x=2 or x=3
+() x=3
+() x=2
+
+=> We use the property that b^log_b a=a
+ Use both sides as exponent for 2.
+ 
+7. Simplify log_2 72 - log_2 9
+
+() 4
+() log_2 4
+() \log_2 63
+(X) 3
+
+8. Simplify log_3 9 - log_3 3 + log_3 5
+
+() log_3 8
+() 8
+() 15
+(X) log_3 15
+
+9. Simplify log_2 (3^8 × 5^7)
+
+() 56×log_2 15
+(X) (8×log_2 3)+(7×log_2 5)
+() (5×log_2 3)+(8×log_2 5)
+() 15×log_2 56
+
+10. If log_10 y = 100, what is log_2 y =?
+
+() 301.03
+() 20
+() 500
+(X) 332.19
+
+
+11. A tree is growing taller at a continuous rate. In the past 12 years it has grown from 3 meters to 15 meters. What is its rate of growth per year?
+
+() 11.41%
+() 12.41%
+() 10.41%
+(X) 13.41%
+
+=> (ln15/3)/12 = 0.1341
+
+12. Bacteria can reproduce exponentially if not constrained. Assume a colony grows at a continually compounded rate of 400% per day. 
+How many days before a colony with initial mass of 6.25 X 10^-10 grams weights 1000 Kilograms?
+
+(X) 8.75 days
+() 0.875 days
+() 87.5 days
+() 875 days
+
+=> 6.25×10^−10×e^4t =10^6
+4t = ln(10^6/(6.25×10^−10)) = 35.00878 
+t = ln10^6/(6.25×10^−10) = 8.752195

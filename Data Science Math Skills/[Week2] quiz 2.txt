@@ -1,0 +1,52 @@
+<Practice quiz on Types of Functions>
+
+1. Suppose that A={1,2,10} and B={4,8,40}. Which of the following formulae do not define a function f:A→B?
+
+(X) f(1) = 5, f(2) = 8, and f(10) = 40.
+() f(1) = 4, f(2) = 40, and f(10) = 8.
+() f(a) = 4a, for each a∈A
+() f(1) = 4, f(2) = 4, and f(10) = 4.
+
+2. Suppose that A contains every person in the VBS study (see the second video in the course if you're confused here!). Suppose that Y={+,−} and Z={H,S}
+Suppose that T:A→Y is the function which gives T(a)=+ if person aa tests positive and T(a)=− if they test negative. 
+Suppose that D:A→Z is the function which gives D(a)=H does not actually have VBS and D(a)=S if the person actually has VBS.
+Which of the following must be true of person aa if we have a false positive?
+
+() T(a)=− and D(a)=S
+() T(a)=− and D(a)=H
+() T(a)=+ and D(a)=S
+(X) T(a)=+ and D(a)=H
+
+=> False positive is a positive test result (so T(a)=+) which is misleading because the person actually does not have the disease (D(a)=H)
+
+3. Consider the function g:R→R defined by g(x) = x^2 - 1. Which of the following points are not on the graph of g?
+
+() (−1,0)
+(X) (2,−1)
+() (0,−1)
+() (1,0)
+
+4. Let the point A=(2,4). Which of the following graphs does not contain the point A?
+
+() The graph of g(x)=x+2
+() The graph of s(x) = x^2
+() The graph of f(x)=2x
+(X) The graph of h(x)=x−1
+
+5. Suppose that h(x)=−3x+4. Which of the following statements is true?
+
+() h is neither a strictly increasing function nor a strictly decreasing function.
+() All statements are correct
+() h is a strictly increasing function
+(X) h is a strictly decreasing function
+
+=> A function h is called strictly decreasing if whenever a<b, then h(a)>h(b)
+The graph of h is a line with negative slope.
+
+6. Suppose that f:R→R is a strictly increasing function, with f(3)=15
+Which of the following is a possible value for f(3.7)?
+
+() -3
+(X) 17
+() 14.7
+() 3
