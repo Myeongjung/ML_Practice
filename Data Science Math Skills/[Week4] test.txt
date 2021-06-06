@@ -1,2 +1,188 @@
 <Probability (basic and Intermediate) Graded Quiz> 
 
+1. What additional statement, added to the three below, forms a probability distribution?
+
+(1) I missed only my first class today
+(2) I missed only my second class today
+(3) I missed both my first and second class today
+
+() I missed no classes today
+(X) I did not miss my first or second class today
+() I missed either my first or my second class today but not both
+() I missed all my classes today
+
+
+2. My friend takes 10 cards at random from a 52-card deck, and places them in a box. 
+Then he puts the other 42 cards in a second, identical box. 
+He hands me one of the two boxes and asks me to draw out the top card. 
+What is the probability that the first card I draw will be the Ace of Spades?
+
+() 1/42
+() 1/10
+() 1/26
+(X) 1/52
+
+=> 
+probability of the Ace of Spade is in the First Box = 10/52 
+Probability of the Ace of Spade in another box = 42/52
+Probability of choosing a box = 1/2
+
+= (1/2)(1/42)(42/52) + (1/2)(1/10)(10/52)
+= 1/104 + 1/104
+= 1/52
+
+3. I will go sailing today if it does not rain.  Are the following two statements Independent or dependent? 
+
+(1) “I will go sailing today” 
+(2) “It will not rain today”
+
+(X) Dependent
+() Independent
+
+
+4. The probability that I will go sailing today AND the fair six-sided die will come up even on the next roll is .3. 
+ If these events are independent, what is the probability that I will go sailing today?
+
+() .5
+() .3
+() .1
+(X) .6
+
+
+=> 
+p(A) = I will go sailing today
+p(B) = the fair six-sided die will come up even on the next roll
+
+p(AnB) = 0.3
+since p(A) and p(B) is independent, p(AnB) = p(A) X p(B)
+0.3 = p(A) X 0.5
+p(A) = 0.3/0.5 = 0.6
+
+
+5. I have two coins. One is fair, and has a probability of coming up heads of.5. 
+The second is bent, and has a probability of coming up heads of.75. 
+If I toss each coin once, what is the probability that at least one of the coins will come up tails?
+
+() 1.0
+() 0.375
+(X) 0.625
+() 0.874
+
+=>
+The probability of getting heads on fair coin = 0.5
+The probability of getting heads on bent coin = 0.75
+
+we need at least one of the coins will come up tails: p = 1 - p(both are head)
+
+p = 1 - 0.5*0.75
+p = 0.625
+
+
+6. What is the probability, when drawing 5 cards from a fair 52-card deck, of drawing a "full house'' (three of a kind and a pair) in the form AAABB?
+
+() 0.006410256
+() 0.1320965
+(X) 0.001440576
+() 0.000267094
+
+=> 
+(choose 1 type of card from 13 kinds of card) X (draw 3 cards from 4 cards) X (choose 1 type of card from 12 kinds of card) X (draw 2 cards from 4 cards) 
+/ (draw 5 cards from 52 cards)
+
+= (13C1) X (4C3) X (12C1) X (4C2) / (52C5)
+
+
+7. If it rains, I do not go sailing. It rains 10% of days;  I go sailing 3% of days.
+If it does not rain, what is the (conditional) probability that I go sailing?
+Written "p(I go sailing | it does not rain)''?
+
+() 3.000%
+() 3.125%
+() 3.448%
+(X) 3.333%
+
+=> 
+3% / 90%
+
+
+8. I am at my office AND not working 2% of the time.  I am at my office 10% of the time. 
+What is the conditional probability that I am not working, if I am at my office?
+
+(X) 20%
+() 50%
+() 10%
+() 1%
+
+=>
+(2% X 10%) / ((98% X 10%) + (2% X 10%))
+
+
+9. The factory quality control department discovers that the conditional probability of making a manufacturing mistake in 
+its precision ball bearing production is 4% on Tuesday, 4% on Wednesday, 4% on Thursday, 8% on Monday, and 12% on Friday. 
+
+The Company manufactures an equal amount of ball bearings (20%) on each weekday.  
+What is the probability that a defective ball bearing was manufactured on a Friday?
+
+(X) 37.5%
+() 20%
+() 40%
+() 12%
+
+=>
+Monday: 8% x 20%(amount of ball bearings)
+Tuesday - Thursday: 4% X 20% X 3(3 weekdays)
+Friday: 12% X 20%
+
+= Sum(Monday - Friday) / Friday
+= 0.024 / 0.064
+
+
+10. An Urn contains two white marbles and one black marble. 
+A marble is drawn from the Urn without replacement and put aside without my seeing it. 
+Then a second marble is drawn, and it is white. 
+What is the probability that the unknown removed marble is white, and what is the probability that it is black?
+
+(X)  p(the first marble is white |the second marble is white)=.5
+	p(the first marble is black | the second marble is white)=.5
+
+()  p(the first marble is white|the second marble is white)=0.6667
+	p(the first marble is black|the second marble is white)=0.333
+
+()  p(the first marble is white|the second marble is white)=1.0
+	p(the first marble is black|the second marble is white)=0.0
+
+()  p(the first marble is white|the second marble is white)=0.3333
+	p(the first marble is black|the second marble is white)=0.6667
+
+
+=>
+p(First white, second white) as p(A) = 2/3 X 1/2 = 1/3
+p(first black, second white) as p(B) = 1/3 X 2/2 = 1/3
+
+p(the first marble is white |the second marble is white) = p(A) / (p(A)+p(B)) = 1/2
+p(the first marble is black | the second marble is white) = p(B) / (p(A)+p(B)) = 1/2
+
+11. What is the probability, if I flip a fair coin with heads and tails ten times in a row, that I get at least 8 heads?
+
+(X) 0.0547
+() 0.1131
+() 0.4395
+() 0.00977
+
+=> (10C8 + 10C9 + 10C10) X (0.5)^10
+
+
+12. Suppose I have either a fair coin or a bent coin, and I don’t know which. The bent coin has a 60% probability of coming up heads.
+I throw the coin ten times and it comes up heads 8 times. What is the probability I have the fair coin vs. the probability I have the bent coin? 
+Assume at the outset there is an equal (.5,.5) prior probability of either coin.
+
+(X) 26.65
+() 53.30
+() 22.47
+() 81.24
+
+=>
+p(Fair) = 10C8 X 0.5^10
+p(Bent) = 10C8 X 0.6^8 X 0.4^2
+
+p(I have the fair coin vs. the probability I have the bent coin) = p(Fair) / (p(Fair) + p(Bent))

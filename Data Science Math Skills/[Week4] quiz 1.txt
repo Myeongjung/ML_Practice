@@ -1,2 +1,84 @@
 <Practice quiz on Probability Concepts>
 
+1. If x= "It is raining,'' what is ∼(∼x)?
+
+(X) "It is raining"
+() "It is always raining"
+() "It is not raining"
+() "It is never raining"
+
+2. If the statement “I am 25 years old” is assigned probability 0, what probability is assigned to the statement “I am not 25 years old”?
+
+() Unknown
+() −1
+(X) 1
+() 0
+
+=> p(x)+p(∼x)=1.
+
+3. If I assign to the statement x = "it will rain today'' a probability of p(x)=0.35, what probability must I assign to the statement "it will not rain today?"
+
+() .35
+() 0
+(X) .65
+() .5
+
+4. Is the following collection of statements a probability distribution?
+1. I own a Toyota pickup truck
+2. I do not own a Toyota pickup truck
+3. I own a non-Toyota pickup truck
+4. I do not own a non-Toyota pickup truck
+
+(X) No
+() Yes
+
+=> The statements are not exclusive: 1 and 4 could both be true, 2 and 3 could both be true, 2 and 4 could both be true, and even 1 and 3
+could both be true (if I owned more than one pickup truck). 
+
+5. I don’t know what it means to be “ingenuous.” What probability would I assign to the statement, “I am ingenuous OR I am not ingenuous"?
+
+() 0
+(X) 1
+() -1
+() .5
+
+6. A friend of mine circumscribes a circle inside a square, so
+that the diameter of the circle and the edge of the square are the same length.
+He asks me to close my eyes and pick a point at random inside the square. He
+says the probability that my point will also be inside the circle is Pi/4 
+Is this correct?
+
+(X) Yes
+() No
+
+=> For a circle with any radius r to be circumscribed inside a square, the square
+must have sides each of length 2r. The area of the circle is Pi*r^2 and the
+area of the square is (2r)^2 = 4*r^2.
+The probability of landing in a circle of area Pi*r^2 when it is known that one is
+in the area of the square is equal to the ratio of the area of the circle to
+the area of the square in which it is circumscribed, or Pi*r^2/4*r^2 = Pi/4. 
+
+7. The probability of drawing a straight flush (including a Royal Flush) in a five-card poker hand is .0000153908
+What is the probability of not drawing a straight flush?
+
+() .9999745688
+() .9967253809
+() .9996582672
+(X) .9999846092
+
+8. What is the probability that a fair, six-sided die will come up with a prime number? 
+(Recall that prime numbers are positive integers other than 1 that are divisible only by themselves and 1)
+
+() 1/3
+() 1/6
+() 2/3
+(X) 1/2
+
+=> The faces with 2, 3 and 5 satisfy the condition
+
+9. The joint probability p (the die will come up 5, the next card will be a heart) Is equal to the joint probability:
+
+() p (the next card will not come up 5, the next card will be a heart)
+(X) p (the next card will be a heart, the die will come up 5) 
+() p (the next card will be a heart, the die will not come up 5)
+() p (the die will not come up 5, the next card will not be a heart)     

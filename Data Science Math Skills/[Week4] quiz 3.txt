@@ -1,2 +1,120 @@
 <Practice quiz on Bayes Theorem and the Binomial Theorem> 
 
+1. A jewelry store that serves just one customer at a time is
+concerned about the safety of its isolated customers. 
+
+The store does some research and learns that:
+10% of the times that a jewelry store is robbed, a customer is in the store.
+A jewelry store has a customer on average 20% of each 24-hour day.
+The probability that a jewelry store is being robbed (anywhere in the world) is 1 in 2 million.
+What is the probability that a robbery will occur while a customer is in the store?
+
+() 1/500000
+() 1/2000000
+(X) 1/4000000
+() 1/5000000
+
+=> 1/2milion X 0.1 / 0.2
+
+2. If I flip a fair coin, with heads and tails, ten times in a row, what is the probability that I will get exactly six heads?
+
+() 0.021
+() 0.187
+(X) 0.2051
+() 0.305
+
+=> 
+10C6 X 0.5^10 = 10!/4!6! X 1/1024 = 0.2051
+
+3. If a coin is bent so that it has a 40% probability of coming up heads, what is the probability of getting exactly 6 heads in 10 throws?
+
+() 0.0974
+() 0.1045
+(X) 0.1115 
+() 0.1219
+
+=> 10C6 X 0.4^6 X 0.6^4
+
+4. A bent coin has 40% probability of coming up heads on each independent toss. 
+If I toss the coin ten times, what is the probability that I get at least 8 heads?
+
+() 0.0312
+() 0.0213
+(X) 0.0123
+() 0.0132
+
+=> 10C8 X 0.4^8 X 0.6^2 + 10C9 X 0.4^9 X 0.6^1 + 10C10 X 0.4^8
+
+5. Suppose I have a bent coin with a 60% probability of coming up heads. 
+I throw the coin ten times and it comes up heads 8 times.
+
+What is the value of the “likelihood” term in Bayes’ Theorem
+-- the conditional probability of the data given the parameter.
+
+(X) 0.120932
+() 0.122885
+() 0.168835
+() 0.043945
+
+
+=> 
+Bayesian “likelihood” = p(observed data | parameter) = 10C8 X 0.6^8 X 0.4^2
+ 
+6. We have the following information about a new medical test for diagnosing cancer.
+Before any data are observed, we know that 5% of the population to be tested actually have Cancer. 
+Of those tested who do have cancer, 90% of them get an accurate test result of “Positive” for cancer. 
+The other 10% get a false test result of “Negative” for Cancer.
+Of the people who do not have cancer, 90% of them get an accurate test result of “Negative” for cancer. 
+The other 10% get a false test result of “Positive” for cancer.
+What is the conditional probability that I have Cancer, if I get a “Positive” test result for Cancer?
+
+() 67.9% 
+() 4.5%
+() 9.5% 
+(X) 32.1% probability that I have cancer
+
+
+=>
+(90%)(5%) / ((90%)(5%) + (10%)(95%) = 32.1%
+
+
+7. We have the following information about a new medical test for diagnosing cancer. 
+Before any data are observed, we know that 8% of the population to be tested actually have Cancer. 
+Of those tested who do have cancer, 90% of them get an accurate test result of "Positive'' for cancer. 
+The other 10% get a false test result of "Negative'' for Cancer.
+Of the people who do not have cancer, 95% of them get an accurate test result of "Negative'' for cancer. 
+The other 5% get a false test result of "Positive'' for cancer.
+What is the conditional probability that I have cancer, if I get a "Negative'' test result for Cancer?
+
+() 88.2%
+(X) 0.9%
+() 99.1%
+() .80%
+
+
+=> 
+(10%)(8%) / ((10%)(8%)+(95%)(92%)) = 0.9%
+ 
+ 
+8. An urn contains 50 marbles – 40 blue and 10 white. After 50 draws, exactly 40 blue and 10 white are observed. 
+You are not told whether the draw was done “with replacement” or “without replacement.”
+What is the probability that the draw was done with replacement?
+
+
+(X) 12.27%
+() 13.98%
+() 1
+() 87.73% 
+
+
+9. According to Department of Customs Enforcement Research: 99% of people crossing into the United States are not smugglers.
+The majority of all Smugglers at the border (65%) appear nervous and sweaty.
+Only 8% of innocent people at the border appear nervous and sweaty. 
+If someone at the border appears nervous and sweaty, what is the probability that they are a Smuggler?
+
+() 8.57%
+() 7.92%
+(X) 7.58%
+() 92.42%
+
+=> (65%)(1%) / ((65%)(1%)+(8%)(99%)) = 7.58%

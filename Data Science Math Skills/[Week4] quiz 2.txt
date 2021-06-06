@@ -1,2 +1,108 @@
 <Practice quiz on Problem Solving>
 
+1. I am given the following 3 joint probabilities:
+p(I am leaving work early, there is a football game that I want to watch this afternoon) = .1
+p(I am leaving work early, there is not a football game that I want to watch this afternoon) = .05
+p(I am not leaving work early, there is not a football game that I want to watch this afternoon) = .65
+What is the probability that there is a football game that I want to watch this afternoon?
+
+() .1
+(X) .3
+() .2
+() .35
+
+2. The Joint probability of my summiting Mt. Baker in the next two years AND publishing a best-selling book in the next two years is .05. If
+the probability of my publishing a best-selling book in the next two years is 10%, and the probability of my summiting Mt. Baker in the next two years is 30%, are these two events dependent or independent?
+
+(X) Dependent
+() Independent
+
+=> We know this because the joint distribution of 5% does not equal the product distribution of (0.1)×(0.3)=3%. 
+
+3. The Joint probability of my summiting Mt. Baker in the next two years AND my publishing a best-selling book in the next two years is .05. 
+If the probability of my publishing a best-selling book in the next two years is 10%, and the probability of my summiting Mt. Baker in the next two years is 30%, what is the probability that (sadly) in the next two years I will neither
+summit Mt. Baker nor publish a best-selling book?
+
+(X) .65
+() .95
+() .25
+() .9
+
+=>
+Set A = I will summit Mt. Baker in the next two years
+Set B = I will publish a best-selling book in the next two years.
+(AUB)^c = 1 - (0.3 + 0.1 - 0.05) = 0.65
+
+4. I have two coins. One is fair, and has a probability of coming up heads of .5.
+The second is bent, and has a probability of coming up heads of .75. If I toss
+each coin once, what is the probability that at least one of the coins will
+come up heads?
+
+() .625
+(X) .875
+() .375
+() 1.0
+
+5. What is 11!/9!?
+
+() 110,000
+(X) 110
+() 554,400
+() 4,435,200
+
+6. What is the probability that, in six throws of a die, there
+will be exactly one each of “1”, “2”, “3”, “4”, “5” and “6”?
+
+() .00187220 
+() .01432110 
+(X) .01543210 
+() .01176210 
+
+=> 
+There are 6!=720 permutations where each face occurs exactly once.
+There are 6×6×6×6×6×6=46656 total permutations of 6 throws.
+The probability is therefore 720/46656=0.01543210
+
+7. On 1 day in 1000, there is a fire and the fire alarm rings. 
+On 1 day in 100, there is no fire and the fire alarm rings (false alarm) 
+On 1 day in 10,000, there is a fire and the fire alarm does not ring (defective alarm). 
+On 9,889 days out of 10,000, there is no fire and the fire alarm does not ring. 
+If the fire alarm rings, what is the (conditional)
+probability that there is a fire?
+Written p(there is a fire | fire alarm rings)
+
+() 1.12%
+(X) 9.09%
+() 90.9%
+() 1.1%
+
+=>
+		 A  | ~A
+  F | 10  |   1
+~F |100 | 9889
+The probability that there is a fire, given that the fire alarm rings, is 10/110=9.09%
+
+8. On 1 day in 1000, there is a fire and the fire alarm rings. 
+On 1 day in 100, there is no fire and the fire alarm rings (false alarm) 
+On 1 day in 10,000, there is a fire and the fire alarm does not ring (defective alarm). 
+On 9,889 days out of 10,000, there is no fire and the fire alarm does not ring. 
+If the fire alarm does not ring, what is the (conditional) probability that there is a fire?
+p(there is a fire | fire alarm does not ring)
+
+() 1.0001%
+() .01000%
+() .10011%
+(X) 0.01011%
+
+=> 1/9890=0.01011%
+
+9. A group of 45 civil servants at the State Department are newly qualified to serve as Ambassadors to foreign governments. 
+There are 22 countries that currently need Ambassadors. 
+How many distinct groups of 22 people can the President promote to fill these jobs?
+
+() = 1.06 X (10^35)
+() = 8.2334 X (10^12)
+() = 2.429 X (10^-13)
+(X) = 4.1167 X (10^12)
+
+=> 45!/(23!)(22!)
