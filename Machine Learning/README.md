@@ -1,6 +1,11 @@
 ## 3. Machine Learning
 Lectures are provided by Standford University in [Coursera](https://www.coursera.org/learn/machine-learning)
 
+## Table of contents
+| Week | Description | File Name | 
+|:---:|:---|:---|
+
+
 ## Models
 | Algorithm | Data format of the result | Types of questions | Does the model is interpretable? | Easy to understand how it works? | Prediction Accuracy | Training Speed | Prediction Speed |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
